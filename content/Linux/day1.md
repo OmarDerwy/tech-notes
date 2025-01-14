@@ -1,17 +1,3 @@
-# [[Database]] by [[Amr ElHelw]]
-
-steps to solve for database design may vary in detail from one person to another
-## 0.1	Design
-![[Pasted image 20241120090835.png]]
-### 0.1.1	Requirement Gathering
-What type of data are we dealing with?
-- relational
-- graph
-- JSON
-Do we need to aggregate and perform functions on the database frequenctly or is it OLTP (insert remove) type of need. Time series analysis?
-
-Any speical requirements?
-
 
 # 1	[[Linux]] Intro by [[Mahmoud Helmy]] 
 
