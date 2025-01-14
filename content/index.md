@@ -2,6 +2,7 @@
 title: Welcome to my notes ❤️
 ---
 
-# Welcome
-Here you can find all of my notes for all of the topics to the left.
-Not the very organized but I hope you find them useful 😉
+Here you can find all my notes for all topics to the left of the page.
+Not very organized... but I hope you find my notes useful 😉
+
+You can also use the search bar on the top to quickly search through everything.
