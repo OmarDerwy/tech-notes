@@ -1,5 +1,5 @@
 ---
-title: Welcome to my notes for ITI's Full Stack with Python
+title: Welcome to my notes ❤️
 ---
 
 # Welcome
