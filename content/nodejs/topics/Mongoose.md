@@ -1,0 +1,47 @@
+---
+media: https://www.youtube.com/watch?v=DZBGEVgL2eE
+---
+
+- [00:18](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=18#t=18.42) advaced concepts of mongoose 
+- [01:11](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=72#t=01:11.81) install mongoose using np
+- [01:23](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=84#t=01:23.88)install nodemon as --save-dev
+- [01:45](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=105#t=01:45.15) commands that you add in scripts execute whats written after them when you call them using `npm run <command>`
+- [03:08](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=189#t=03:08.84) monogoose queues commands tghat you make and only applies them when the connection is made
+- [03:14](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=194#t=03:14.43) mongoose relies on the concept of the schema
+- [03:40](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=221#t=03:40.87) schema vs model vs query
+- ![[Mongoose Crash Course - Beginner Through AdvancedPT4M50.319S.webp|Mongoose Crash Course - Beginner Through Advanced - 04:50|50]] [04:50](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=290#t=04:50.32) syntax for creating a schema
+- ![[Mongoose Crash Course - Beginner Through AdvancedPT5M27.308S.webp|Mongoose Crash Course - Beginner Through Advanced - 05:27|50]] [05:27](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=327#t=05:27.31) syntax for creating a model
+- ![[Mongoose Crash Course - Beginner Through AdvancedPT5M45.783S.webp|Mongoose Crash Course - Beginner Through Advanced - 05:45|50]] [05:45](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=346#t=05:45.78) once you import the model to the file you want to use it in, you could access the methods associated with it  
+- ![[Mongoose Crash Course - Beginner Through AdvancedPT7M56.432S.webp|Mongoose Crash Course - Beginner Through Advanced - 07:56|50]] [07:56](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=476#t=07:56.43) two methods to create a new record in the database
+- [08:12](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=493#t=08:12.58) most promise returns you get from functions like user.create are local to the file and changes made to them will not affect the actual db
+- [08:27](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=508#t=08:27.92) calling user.save saves the object in the db 
+- ![[Mongoose Crash Course - Beginner Through AdvancedPT9M55.257S.webp|Mongoose Crash Course - Beginner Through Advanced - 09:55|50]] [09:55](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=595#t=09:55.26) the different datatypes you can have inside a mongoose model
+- [10:35](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=636#t=10:35.69) There are two ways to have nested objects inside a schema, a regular way and creating a different schema and then referencing it inside the original schema
+- [12:13](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=733#t=12:13.24) You can install plugins for mongoose where you can print to users the errors that you can get with data validation.
+- 
+- [12:34](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=754#t=12:34.22) e.error.age
+- [12:53](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=773#t=12:53.13) other than type validation. We could also have field requirement
+- ![[Mongoose Crash Course - Beginner Through AdvancedPT13M28.861S.webp|Mongoose Crash Course - Beginner Through Advanced - 13:28|50]] [13:28](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=809#t=13:28.86)  like this
+- ![[Mongoose Crash Course - Beginner Through AdvancedPT14M25.448S.webp|Mongoose Crash Course - Beginner Through Advanced - 14:25|50]] [14:25](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=865#t=14:25.45) default propety
+- [15:11](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=912#t=15:11.75) immutable flag makes it so you cannot modify this value
+- [15:52](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=953#t=15:52.75) min and max numbers to accept
+- [16:19](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=979#t=16:19.24) also works with strings
+- [16:47](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1007#t=16:47.20) custom validation
+- [17:05](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1025#t=17:05.04) messsage on failing validation
+- [18:14](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1095#t=18:14.92) findbyidandupdate and similar do not go through validation. Better not use them if you use validation
+- [20:16](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1216#t=20:16.48) exists
+- [21:45](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1305#t=21:45.19) queries
+- [22:07](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1328#t=22:07.63) limit
+- [22:19](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1339#t=22:19.34) select 
+- [23:29](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1409#t=23:29.17) .populate() which is similar to join because it transfers the object that is referenced to the actual record
+- [24:17](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1457#t=24:17.07) NEXT LEVEL
+- [24:51](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1491#t=24:51.14) adding a method into every instance of user
+- [25:04](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1504#t=25:04.06) you cannot use an arrow function here because you need to use (this.)
+- [25:43](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1543#t=25:43.14) You can also define static methods onto the actual model and not the instance
+- [26:27](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1587#t=26:27.25) create a findbyname which is case insensitive
+- [26:59](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1620#t=26:59.96) where can take the same syntax as find
+- [27:17](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1638#t=27:17.61) to add to a query
+- [28:03](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1684#t=28:03.86) you can only use these methods chained to query methods like find and wherre
+- [28:38](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1718#t=28:38.16) virtual. a property not on the schema but based on other properties on the schema.
+- [29:11](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1751#t=29:11.14) put get and set on the virtutal 
+- [30:38](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=1838#t=30:38.01) use middleware in between save, validate and remove  
