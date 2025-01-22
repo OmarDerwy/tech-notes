@@ -26,7 +26,7 @@ NaN: not a number
 anything added to string is converted to string #iti/interview-question/javascript 
 NaN is not equal anything even itself
 ```js
-1+1 = 1
+1+1 = 2
 "1"+1 = "11"
 1+false=1 // all booleans turn into numbers
 1+"false" // 1false
